@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 // MySQL connection
 const pool = mysql.createPool({
     connectionLimit: 100,
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
+    host: 'codesnippet.cboi0eu0oare.ap-south-1.rds.amazonaws.com',
+    user: 'admin',
+    password: 'vansh1234',
     database: 'code_snippet' 
 });
 
